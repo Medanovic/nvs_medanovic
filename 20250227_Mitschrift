@@ -29,3 +29,10 @@ BIN     DEC HEX
 1101	13	D
 1110	14	E
 1111	15	F	
+
+Layer 3: Network
+    IPv4
+    BGP
+    OSP
+    IPv6
+    
