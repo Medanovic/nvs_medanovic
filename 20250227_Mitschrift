@@ -31,7 +31,7 @@ BIN     DEC HEX
 1111	15	F	
 
 Layer 3: Network
-    IPv4
+    IPv4 (4 Byte, 32 Bits)
     BGP
     OSP
-    IPv6
+    IPv6 (16 Byte, 128 Bits)
