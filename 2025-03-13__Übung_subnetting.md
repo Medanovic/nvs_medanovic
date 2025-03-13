@@ -31,7 +31,7 @@ Broadcastadresse: 192.168.0.255
 
 Teile das Netz 193.170.20.0 /24 in 8 gleich große Netze! Erstelle eine Tabelle mit folgenden Angaben:
 
-**Antwort**
+## Antwort
 Netzwerkadresse,               nutzbare Hosts,                    Broadcastadresse,              Subnetzmaske.
 193.170.20.0                   193.170.20.1 - 193.170.20.30       193.170.20.31                  /27
 193.170.20.32                  193.170.20.33 - 193.170.20.62      193.170.20.63                  /27
