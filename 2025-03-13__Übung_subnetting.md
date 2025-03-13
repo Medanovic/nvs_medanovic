@@ -1,5 +1,5 @@
 # Übung Subnetting
-# Hilfsmittel: https://www.aelius.com/njh/subnet_sheet.html^
+# Hilfsmittel: https://www.aelius.com/njh/subnet_sheet.html
 # Hinweis: Sie sollten sich die Antworten in einem Editor ansehen für die Formatierung
 
 ## Übung 1
