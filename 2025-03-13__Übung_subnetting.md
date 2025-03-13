@@ -1,4 +1,5 @@
 # Übung Subnetting
+# Ajdin Medanovic 2DAIF 13.03.2025
 # Hilfsmittel: https://www.aelius.com/njh/subnet_sheet.html
 # Hinweis: Sie sollten sich die Antworten in einem Editor ansehen für die Formatierung
 
