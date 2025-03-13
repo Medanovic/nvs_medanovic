@@ -1,5 +1,6 @@
 # Übung Subnetting
-# Hilfsmittel: https://www.aelius.com/njh/subnet_sheet.html
+# Hilfsmittel: https://www.aelius.com/njh/subnet_sheet.html^
+# Sie sollten sich die Antworten in einem Editor ansehen für die Formatierung
 
 ## Übung 1
 
@@ -58,6 +59,18 @@ Wie lautet die Subnetzmaske bei der Netzadresse: 17.0.0.0 mit 10 verwendbaren Su
 Antwort in Sätzen, wie sie zu dieser Lösung kommen; und erstelle eine Tabelle:
 
 **Antwort**
+Wir brauchen mind. 10 Subnets, die mind. 12 Hosts pro Subnet haben.
+/28 bietet sich perfekt an weil wir mit /28 insgesamt 14 Hosts pro Subnet haben.
+
+Netzwerkadresse,               nutzbare Hosts,                    Broadcastadresse,              Subnetzmaske.
+193.170.20.0                   193.170.20.1 - 193.170.20.30       193.170.20.31                  /27
+193.170.20.32                  193.170.20.33 - 193.170.20.62      193.170.20.63                  /27
+193.170.20.64                  193.170.20.65 - 193.170.20.94      193.170.20.95                  /27
+193.170.20.96                  193.170.20.97 - 193.170.20.126     193.170.20.127                 /27
+193.170.20.128                 193.170.20.129 - 193.170.20.158    193.170.20.159                 /27
+193.170.20.160                 193.170.20.161 - 193.170.20.190    193.170.20.191                 /27
+193.170.20.192                 193.170.20.193 - 193.170.20.222    193.170.20.223                 /27
+193.170.20.224                 193.170.20.225 - 193.170.20.254    193.170.20.255                 /27
 
 ## Übung 5
 
