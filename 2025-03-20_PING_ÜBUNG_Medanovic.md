@@ -51,3 +51,10 @@ Ping-Statistik für 192.168.33.149:
     (0% Verlust),
 Ca. Zeitangaben in Millisek.:
     Minimum = 2ms, Maximum = 3ms, Mittelwert = 2ms
+
+## ARP REQUEST an den Laptop von Cesur Kul (192.168.33.149) um seine MAC Adresse zu kriegen
+C:\Users\adome>arp -a 192.168.33.149
+
+Schnittstelle: 192.168.33.150 --- 0x10
+  Internetadresse       Physische Adresse     Typ
+  192.168.33.149        74-4c-a1-be-87-6f     dynamisch
