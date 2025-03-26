@@ -1,3 +1,6 @@
+## Meine IP: 192.168.33.150
+## Partner: Cesur Kul (192.168.33.149)
+
 ## IPCONFIG von meinem Laptop
 
 C:\Users\adome>ipconfig
@@ -58,3 +61,33 @@ C:\Users\adome>arp -a 192.168.33.149
 Schnittstelle: 192.168.33.150 --- 0x10
   Internetadresse       Physische Adresse     Typ
   192.168.33.149        74-4c-a1-be-87-6f     dynamisch
+
+## Abfrage MX von whitehouse.gov
+C:\Users\adome>nslookup -query=mx whitehouse.gov
+Server:  2a02-8383-000d-000c-0000-0000-0000-1000.static.v6.upcbusiness.at
+Address:  2a02:8383:d:c::1000
+
+whitehouse.gov
+        primary name server = ernest.ns.cloudflare.com
+        responsible mail addr = dns.cloudflare.com
+        serial  = 2368069009
+        refresh = 10000 (2 hours 46 mins 40 secs)
+        retry   = 2400 (40 mins)
+        expire  = 604800 (7 days)
+        default TTL = 1800 (30 mins)
+
+## Abfrage IPv4 von zdf.de
+C:\Users\adome>nslookup -query=a zdf.de
+Server:  2a02-8383-000d-000c-0000-0000-0000-1000.static.v6.upcbusiness.at
+Address:  2a02:8383:d:c::1000
+
+Nicht autorisierende Antwort:
+Name:    zdf.de
+Address:  91.197.29.78
+
+## Abfrage IPv6 von zdf.de
+C:\Users\adome>nslookup -query=aaaa zdf.de
+Server:  2a02-8383-000d-000c-0000-0000-0000-1000.static.v6.upcbusiness.at
+Address:  2a02:8383:d:c::1000
+
+Name:    zdf.de
