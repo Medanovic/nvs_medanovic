@@ -2,7 +2,6 @@
 ## Partner: Cesur Kul (192.168.33.149)
 
 ## IPCONFIG von meinem Laptop
-
 C:\Users\adome>ipconfig
 
 Windows-IP-Konfiguration
@@ -40,7 +39,6 @@ Ethernet-Adapter Ethernet:
    Verbindungsspezifisches DNS-Suffix: htl-wien5.schule
 
 ## PING an den Laptop von Cesur Kul (192.168.33.149)
-
 C:\Users\adome>ping 192.168.33.149
 
 Ping wird ausgeführt für 192.168.33.149 mit 32 Bytes Daten:
